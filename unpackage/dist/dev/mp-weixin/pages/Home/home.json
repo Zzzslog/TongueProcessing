@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-row": "/uview-ui/components/u-row/u-row",
+    "u-col": "/uview-ui/components/u-col/u-col",
+    "u-section": "/uview-ui/components/u-section/u-section",
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-read-more": "/uview-ui/components/u-read-more/u-read-more",
+    "u-line": "/uview-ui/components/u-line/u-line"
+  }
+}

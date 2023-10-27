@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "健康百科",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-section": "/uview-ui/components/u-section/u-section",
+    "u-image": "/uview-ui/components/u-image/u-image"
+  }
+}

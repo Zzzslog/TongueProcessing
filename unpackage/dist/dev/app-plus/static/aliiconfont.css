@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'aliiconfont';  /* Project id 4247238 */
+  src: url('https://at.alicdn.com/t/c/font_4247238_hkt6trwalpm.woff2?t=1695121207452') format('woff2'),
+       url('https://at.alicdn.com/t/c/font_4247238_hkt6trwalpm.woff?t=1695121207452') format('woff'),
+       url('https://at.alicdn.com/t/c/font_4247238_hkt6trwalpm.ttf?t=1695121207452') format('truetype');
+}
+
+.aliiconfont {
+  font-family: "aliiconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.aliicon-fenxiang:before {
+  content: "\e832";
+}
+
+.aliicon-lishi:before {
+  content: "\e833";
+}
+
+.aliicon-kefu:before {
+  content: "\e834";
+}
+
+.aliicon-saomiao:before {
+  content: "\e835";
+}
+
+.aliicon-liulan:before {
+  content: "\e836";
+}
+
+.aliicon-xiangji:before {
+  content: "\e837";
+}
+
+.aliicon-anquan:before {
+  content: "\e838";
+}
+
+.aliicon-dianzan:before {
+  content: "\e839";
+}
+
+.aliicon-shezhi:before {
+  content: "\e83a";
+}
+
+.aliicon-xiaoxi:before {
+  content: "\e83b";
+}
+
+.aliicon-chazhao:before {
+  content: "\e83c";
+}
+
+.aliicon-gouwu:before {
+  content: "\e83d";
+}
+
+.aliicon-shouye:before {
+  content: "\e83e";
+}
+
+.aliicon-wode:before {
+  content: "\e83f";
+}
+
+.aliicon-xihuan:before {
+  content: "\e840";
+}
+
+.aliicon-dingdan:before {
+  content: "\e841";
+}
+
+.aliicon-dingwei:before {
+  content: "\e842";
+}
+
+.aliicon-yangguang:before {
+  content: "\e843";
+}
+
+.aliicon-jiance:before {
+  content: "\e844";
+}
+
+.aliicon-chuntianran:before {
+  content: "\e845";
+}
+
+.aliicon-kangfuke:before {
+  content: "\e846";
+}
+
+.aliicon-saoma:before {
+  content: "\e80f";
+}
+
+.aliicon-faxian:before {
+  content: "\e810";
+}
+
+.aliicon-jifen:before {
+  content: "\e811";
+}
+
+.aliicon-bingli:before {
+  content: "\e812";
+}
+
+.aliicon-zhifu:before {
+  content: "\e813";
+}
+
+.aliicon-shenfen:before {
+  content: "\e814";
+}
+
+.aliicon-tongxun:before {
+  content: "\e815";
+}
+
+.aliicon-jilu:before {
+  content: "\e816";
+}
+
+.aliicon-lvtong:before {
+  content: "\e817";
+}
+
+.aliicon-fenlei:before {
+  content: "\e818";
+}
+
+.aliicon-baogao:before {
+  content: "\e819";
+}
+
+.aliicon-chufang:before {
+  content: "\e81a";
+}
+
+.aliicon-renzheng:before {
+  content: "\e81b";
+}
+
+.aliicon-fufei:before {
+  content: "\e81c";
+}
+
+.aliicon-goumai:before {
+  content: "\e81d";
+}
+
+.aliicon-yaoxiang:before {
+  content: "\e81e";
+}
+
+.aliicon-tupian:before {
+  content: "\e81f";
+}
+
+.aliicon-shipin:before {
+  content: "\e820";
+}
+
+.aliicon-yuyin:before {
+  content: "\e821";
+}
+
+.aliicon-dianpu:before {
+  content: "\e822";
+}
+
+.aliicon-yisheng:before {
+  content: "\e823";
+}
+
+.aliicon-wenzhen:before {
+  content: "\e824";
+}
+
+.aliicon-yejian:before {
+  content: "\e825";
+}
+
+.aliicon-jiancha:before {
+  content: "\e826";
+}
+
+.aliicon-yiyuan:before {
+  content: "\e827";
+}
+
+.aliicon-rili:before {
+  content: "\e828";
+}
+
+.aliicon-dangan:before {
+  content: "\e829";
+}
+
+.aliicon-huangguan:before {
+  content: "\e82a";
+}
+
+.aliicon-shuoming:before {
+  content: "\e82b";
+}
+
+.aliicon-bianji:before {
+  content: "\e82c";
+}
+
+.aliicon-dengdai:before {
+  content: "\e82d";
+}
+
+.aliicon-shuru:before {
+  content: "\e82e";
+}
+
+.aliicon-linggan:before {
+  content: "\e82f";
+}
+
+.aliicon-tongzhi:before {
+  content: "\e830";
+}
+
+.aliicon-shanchu:before {
+  content: "\e831";
+}
+

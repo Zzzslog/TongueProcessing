@@ -1,0 +1,38 @@
+.section-title.data-v-3416b68c {
+  padding: 40rpx 32rpx 0;
+  color: #666;
+  font-size: 16px;
+}
+.community .section-content.data-v-3416b68c {
+  padding: 40rpx;
+  color: #999;
+  font-size: 14px;
+}
+.community.data-v-3416b68c {
+  padding: 40rpx 0;
+}
+.nav.data-v-3416b68c {
+  margin-top: 50rpx;
+}
+.loadingState.data-v-3416b68c {
+  padding: 30rpx;
+}
+.edit.data-v-3416b68c {
+  width: 120rpx;
+  height: 120rpx;
+  background: #0199FE;
+  border-radius: 50%;
+  color: #fff;
+  position: fixed;
+  z-index: 100;
+  bottom: 150rpx;
+  right: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20rpx rgba(1, 153, 254, 0.8);
+}
+.edit .aliiconfont.data-v-3416b68c {
+  font-size: 50rpx;
+}
+

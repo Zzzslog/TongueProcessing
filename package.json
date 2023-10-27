@@ -1,0 +1,9 @@
+{
+	"devDependencies": {
+		"autoprefixer": "^9.8.8",
+		"postcss": "^7.0.39"
+	},
+	"dependencies": {
+		"vant": "^4.7.2"
+	}
+}

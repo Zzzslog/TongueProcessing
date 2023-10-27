@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "社区",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "skeleton": "/pages/components/primewind-skeleton/pages/skeleton/index"
+  }
+}

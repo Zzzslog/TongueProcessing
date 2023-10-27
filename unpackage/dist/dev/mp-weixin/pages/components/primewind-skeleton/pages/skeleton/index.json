@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "skeleton": "/pages/components/primewind-skeleton/components/skeleton/index"
+  }
+}

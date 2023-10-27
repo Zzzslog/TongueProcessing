@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-search": "/uview-ui/components/u-search/u-search"
+  },
+  "component": true
+}

@@ -1,0 +1,37 @@
+.content.data-v-3ecedc26 {
+  width: 100%;
+  min-height: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topnav.data-v-3ecedc26 {
+  margin-top: 30rpx;
+}
+.u-form-item .item.data-v-3ecedc26 {
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.diagnose.data-v-3ecedc26 {
+  margin: 20rpx;
+  display: flex;
+  flex-direction: column;
+  width: 400rpx;
+  height: 450rpx;
+  background-color: #edfffe;
+  text-align: center;
+}
+.diagnose text.data-v-3ecedc26 {
+  font-size: 0.8rem;
+  color: darkred;
+}
+.diagnose .upload.data-v-3ecedc26 {
+  margin: auto;
+}
+.diagnose ._image.data-v-3ecedc26 {
+  width: 350rpx;
+  height: 350rpx;
+}
+
