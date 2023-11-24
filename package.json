@@ -1,9 +1,23 @@
 {
-	"devDependencies": {
-		"autoprefixer": "^9.8.8",
-		"postcss": "^7.0.39"
-	},
-	"dependencies": {
-		"vant": "^4.7.2"
-	}
+  "devDependencies": {
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39"
+  },
+  "dependencies": {
+    "axios": "^1.6.1",
+    "uni-read-pages": "^1.0.5",
+    "uni-simple-router": "^2.0.8-beta.4",
+    "vant": "^4.7.2",
+    "vue-cli": "^2.9.6"
+  },
+  "name": "tongueprocessing",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

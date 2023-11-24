@@ -1,18 +1,11 @@
 <template>
-	<view class="huati">
-		<view class="huati-navbar">
-			<u-section title="热搜话题" sub-title="查看更多" font-size="35"></u-section>
-		</view>
-		<scroll-view scroll-x :scroll-with-animation="true" class="uni-swiper-tab">
-			<view  class="huati-content">
-				<view class="huati-items" v-for="(it,index) in huati" :key="index">
-					<view style="display: flex;flex-direction: column;">
-						<image :src="it.image" mode="aspectFill"></image>
-						<text>{{it.name}}</text>	
-					</view>
-				</view>
+	<view>
+		<view class="huati-items" v-for="(it,index) in huati" :key="index">
+			<view class="box"     :class="{ 'clicked': clickedItems[index] }"  @touchstart="handleTouchStart(index)" @touchend="handleTouchEnd(index)">
+				<image :src="it.image" mode="aspectFill"></image>
+				<text>{{it.name}}</text>	
 			</view>
-		</scroll-view>
+		</view>
 	</view>
 </template>
 
@@ -55,52 +48,53 @@
 							name:"庆祝"
 						 }
 				],
+				 clickedItems: Array.from({ length: 8 }, () => false),
 			};
+		},
+		methods:{
+			// handleClick(){
+			// 	  // 在组件内部点击子话题时触发 huatiClick 事件
+			// 	  this.$emit('huatiClick');
+			// },
+			handleTouchStart(index) {
+			       // 仅设置当前点击的话题项状态为 true
+			       this.$set(this.clickedItems, index, true);
+			},
+			handleTouchEnd(index) {
+			  // 模拟点击后阴影效果持续一段时间后消失
+			  setTimeout(() => {
+				this.$set(this.clickedItems, index, false);
+			  }, 200)
+			},
 		}
-	}
+}	
 </script>
 
 <style lang="scss">
-.huati{
-		margin: 30rpx  10rpx 10rpx 10rpx;
-		// margin: auto;
-		background-color: #ADE5EE;
-		height: 300rpx;
-		width: 97%;
-		align-items: center;
-		justify-content: space-between;
-		border-radius: 20rpx;
-		.huati-navbar{
-			width: 96%;
-			margin: 10rpx 10rpx;
-		}
-		.uni-swiper-tab{
-			white-space: nowrap;
-			background-color: #F0F6F6;
-			// position:fixed;
-			display: flex;
-			// margin: 10rpx 10rpx 10rpx 10rpx;
-			height: 200rpx;
-			border-radius: 20rpx;
-			margin-top: 20rpx;
-		}
-		.huati-content{
-			display: flex;
-			flex-direction: row;
-			.huati-items{
-				margin: 20rpx 23rpx;
-				display: inline-block;
-				image{
-					width: 128rpx;
-					height: 128rpx;
-					border-radius: 60rpx;
-					background-color: white;
-				}
-				text{
-					font-size: 0.6rem;
-					margin-left: 40rpx;
-				}
-			}
-		}
+.huati-items{
+	margin: 20rpx 23rpx;
+	display: inline-block;
+	image{
+		width: 128rpx;
+		height: 128rpx;
+		border-radius: 60rpx;
+		background-color: white;
 	}
+	text{
+		font-size: 0.6rem;
+		margin-left: 40rpx;
+	}
+}
+.box{
+	transition: box-shadow 0.3s; // 添加过渡效果
+	display: flex;
+	flex-direction: column;
+	&.clicked {
+	  box-shadow: 0 0 10px 10rpx rgba(155, 155, 155, 0.2); // 点击后的阴影效果
+	}
+}
+// .huati-content{
+// 	display: flex;
+// 	flex-direction: row;
+// }
 </style>

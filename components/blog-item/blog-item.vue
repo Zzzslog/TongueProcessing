@@ -15,15 +15,15 @@
 			</view>
 		</view>
 		<view class="body">
-			<view class="title">欢迎23级同学参观微课基地</view>
+			<view class="title">关于如何健康自检</view>
 			<view class="text">
 				<view class="t">
-					欢迎欢迎~
+					
 				</view>
 			</view>
 			<view class="piclist">
 				<view class="pic" :class="picArr.length==1? 'only':''" v-for="(item,index) in picArr" :key="item">
-					<image src="../../static/bqb/1.png" mode="aspectFill"></image>
+					<image src="https://th.bing.com/th/id/OIG.reZPUb4G1stz0cb5WCJh?w=1024&h=1024&rs=1&pid=ImgDetMain" mode="aspectFill"></image>
 				</view>
 			</view>
 		</view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "热门资讯列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

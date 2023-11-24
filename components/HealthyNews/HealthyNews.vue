@@ -58,7 +58,7 @@ export default {
 			 news:[
 				 {
 					 videopath:"https://xy42x248x135x244xy.mcdn.bilivideo.cn:4483/upgcxcode/39/10/476071039/476071039_da2-1-192.mp4?e=ig8euxZM2rNcNbNz7wdVhwdlhbhMhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1698139235&gen=playurlv2&os=mcdn&oi=1911897371&trid=00000dad76b7d7b64e1ea1f6fe4ac7bb0398u&mid=595822230&platform=pc&upsig=d63a724d88a2cd9024cf514854236ec9&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&mcdnid=14001909&bvc=vod&nettype=0&orderid=0,3&buvid=F23DAFDD-D609-5862-8D60-A4279C69F35019697infoc&build=0&f=u_0_0&agrr=1&bw=234411&logo=A0002000",
-					 image:"https://i0.hdslb.com/bfs/archive/f120cba41197becec8dd7c8e56e9b3d4744ed7d7.jpg@672w_378h_1c_!web-search-common-cover.webp",
+					 image:"",
 					 title:"八段锦标准带口令版",
 					 detail:"来源：bilibili\n八段锦是由八种不同动作组成的健身术，故名“八段”。因为这种健身功可以强身益寿，祛病除疾，其效果甚佳，有如展示给人们一幅绚丽多彩的锦缎，故称为“锦”。八段锦是我国民间广泛流传的一种健身术，据有关文献记载已有八百多年历史。",
 				 },

@@ -3,6 +3,7 @@
   "navigationStyle": "custom",
   "usingComponents": {
     "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
-    "skeleton": "/pages/components/primewind-skeleton/pages/skeleton/index"
+    "blog-item": "/components/blog-item/blog-item",
+    "skeleton": "/components/primewind-skeleton/pages/skeleton/index"
   }
 }

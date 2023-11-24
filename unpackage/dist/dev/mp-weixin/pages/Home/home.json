@@ -2,12 +2,10 @@
   "navigationBarTitleText": "首页",
   "navigationStyle": "custom",
   "usingComponents": {
+    "nav-bar": "/components/NavBar/NavBar",
     "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
-    "u-row": "/uview-ui/components/u-row/u-row",
-    "u-col": "/uview-ui/components/u-col/u-col",
+    "home-nav": "/components/HomeNav/HomeNav",
     "u-section": "/uview-ui/components/u-section/u-section",
-    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
-    "u-read-more": "/uview-ui/components/u-read-more/u-read-more",
-    "u-line": "/uview-ui/components/u-line/u-line"
+    "qiun-data-charts": "/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts"
   }
 }

@@ -1,1 +1,0 @@
-<view class="demo-skeleton"><skeleton vue-id="42dd7e2f-1" loading="{{loading}}" avatarSize="{{skeleton1.avatarSize}}" row="{{skeleton1.row}}" showTitle="{{skeleton1.showTitle}}" bind:__l="__l"></skeleton></view>

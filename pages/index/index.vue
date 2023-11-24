@@ -1,8 +1,8 @@
 <template>
 	<view>
-		<u-navbar :is-back="false"  title="Hello uView"></u-navbar>
 		<view class="content">
 <!-- 			<u-search :show-action="true" action-text="搜索" :animation="true"></u-search> -->
+			<image class="logo" src="../../static/app-icon.png"></image> 
 			<view class="text-area">
 				<text class="title">{{title}}</text>
 			</view>
@@ -14,7 +14,7 @@
 	export default {
 		data() {
 			return {
-
+				title:"欢迎来到舌象诊断系统"
 			}
 		},
 		onLoad() {
@@ -38,6 +38,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 50rpx;
+		border-radius: 90rpx;
 	}
 
 	.text-area {
@@ -47,6 +48,6 @@
 
 	.title {
 		font-size: 36rpx;
-		color: #8f8f94;
+		color: darkgrey;
 	}
 </style>

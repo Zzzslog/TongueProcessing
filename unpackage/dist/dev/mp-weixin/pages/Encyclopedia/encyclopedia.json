@@ -2,7 +2,9 @@
   "navigationBarTitleText": "健康百科",
   "navigationStyle": "custom",
   "usingComponents": {
+    "nav-bar": "/components/NavBar/NavBar",
     "u-section": "/uview-ui/components/u-section/u-section",
-    "u-image": "/uview-ui/components/u-image/u-image"
+    "hua-ti": "/components/HuaTi/HuaTi",
+    "healthy-news": "/components/HealthyNews/HealthyNews"
   }
 }

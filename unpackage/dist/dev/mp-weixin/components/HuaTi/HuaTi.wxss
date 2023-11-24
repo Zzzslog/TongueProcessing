@@ -1,0 +1,23 @@
+.huati-items {
+  margin: 20rpx 23rpx;
+  display: inline-block;
+}
+.huati-items image {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 60rpx;
+  background-color: white;
+}
+.huati-items text {
+  font-size: 0.6rem;
+  margin-left: 40rpx;
+}
+.box {
+  transition: box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+.box.clicked {
+  box-shadow: 0 0 10px 10rpx rgba(155, 155, 155, 0.2);
+}
+

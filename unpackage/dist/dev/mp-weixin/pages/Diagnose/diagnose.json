@@ -2,7 +2,6 @@
   "navigationBarTitleText": "诊断",
   "navigationStyle": "custom",
   "usingComponents": {
-    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
     "u-form": "/uview-ui/components/u-form/u-form",
     "u-form-item": "/uview-ui/components/u-form-item/u-form-item",
     "u-input": "/uview-ui/components/u-input/u-input"

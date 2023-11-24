@@ -1,4 +1,4 @@
-.content.data-v-3ecedc26 {
+.content.data-v-5c24e774 {
   width: 100%;
   min-height: 100%;
   flex-direction: column;
@@ -6,15 +6,15 @@
   justify-content: center;
   align-items: center;
 }
-.topnav.data-v-3ecedc26 {
+.topnav.data-v-5c24e774 {
   margin-top: 30rpx;
 }
-.u-form-item .item.data-v-3ecedc26 {
+.u-form-item .item.data-v-5c24e774 {
   color: black;
   font-size: 0.9rem;
   font-weight: 700;
 }
-.diagnose.data-v-3ecedc26 {
+.diagnose.data-v-5c24e774 {
   margin: 20rpx;
   display: flex;
   flex-direction: column;
@@ -23,14 +23,14 @@
   background-color: #edfffe;
   text-align: center;
 }
-.diagnose text.data-v-3ecedc26 {
+.diagnose text.data-v-5c24e774 {
   font-size: 0.8rem;
   color: darkred;
 }
-.diagnose .upload.data-v-3ecedc26 {
+.diagnose .upload.data-v-5c24e774 {
   margin: auto;
 }
-.diagnose ._image.data-v-3ecedc26 {
+.diagnose ._image.data-v-5c24e774 {
   width: 350rpx;
   height: 350rpx;
 }

@@ -1,23 +1,27 @@
-.section-title.data-v-3416b68c {
+.section-title.data-v-2c27ccda {
   padding: 40rpx 32rpx 0;
   color: #666;
   font-size: 16px;
 }
-.community .section-content.data-v-3416b68c {
+.community .section-content.data-v-2c27ccda {
   padding: 40rpx;
   color: #999;
   font-size: 14px;
 }
-.community.data-v-3416b68c {
+.community.data-v-2c27ccda {
   padding: 40rpx 0;
 }
-.nav.data-v-3416b68c {
+.content .item.data-v-2c27ccda {
+  padding: 30rpx;
+  border-bottom: #F7F7F7 10rpx solid;
+}
+.nav.data-v-2c27ccda {
   margin-top: 50rpx;
 }
-.loadingState.data-v-3416b68c {
+.loadingState.data-v-2c27ccda {
   padding: 30rpx;
 }
-.edit.data-v-3416b68c {
+.edit.data-v-2c27ccda {
   width: 120rpx;
   height: 120rpx;
   background: #0199FE;
@@ -32,7 +36,7 @@
   align-items: center;
   box-shadow: 0 0 20rpx rgba(1, 153, 254, 0.8);
 }
-.edit .aliiconfont.data-v-3416b68c {
+.edit .aliiconfont.data-v-2c27ccda {
   font-size: 50rpx;
 }
 

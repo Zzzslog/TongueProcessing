@@ -3,6 +3,11 @@
 		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
 	},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path": "pages/login/login",
+		    "style": {}
+		},
+		
 		// {
 		// 	"path": "pages/index/index",
 		// 	"style": {
@@ -11,49 +16,76 @@
 		// 	}
 		// },
 		{
-			"path": "pages/Home/home",
+			"path": "pages/home/home",
 			"style": {
 				"navigationBarTitleText": "首页",
 				"navigationStyle": "custom"
 			}
 		},
 		{
-			"path": "pages/Encyclopedia/encyclopedia",
+		    "path": "pages/login/forget",
+		    "style": {}
+		}, {
+		    "path": "pages/login/register",
+		    "style": {}
+		},
+		
+		{
+			"path": "pages/encyclopedia/encyclopedia",
 			"style": {
 				"navigationBarTitleText": "健康百科",
 				"navigationStyle": "custom"
 			}
 		},
 		{
-			"path": "pages/Diagnose/diagnose",
+			"path": "pages/diagnose/diagnose",
 			"style": {
 				"navigationBarTitleText": "诊断",
 				"navigationStyle": "custom"
 			}
 		},
 		{
-			"path": "pages/Community/community",
+			"path": "pages/community/community",
 			"style": {
 				"navigationBarTitleText": "社区",
 				"navigationStyle": "custom"
 			}
 		},
 		{
-			"path": "pages/Mine/mine",
+			"path": "pages/mine/mine",
 			"style": {
 				"navigationBarTitleText": "我的",
 				"navigationStyle": "custom"
 			}
 		}
 	    ,{
-            "path" : "pages/Edit/Edit",
+            "path" : "pages/edit/edit",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "发布长文",
                 "enablePullDownRefresh": false
-            }
-            
-        }
+            }        
+        },
+		{
+		    "path" : "pages/home/list2detail-list/list2detail-list",
+		    "style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+		        "navigationBarTitleText": "热门资讯列表",
+		        "enablePullDownRefresh": true
+		    }
+		},
+		{
+		    "path" : "pages/home/list2detail-detail/list2detail-detail",
+		    "style": {
+		        "app-plus": {
+		            "titleNView": {
+		                // "type": "transparent",
+						"backgroundColor": "white"
+		            }
+		        }
+		    }
+		}
+		
     ],
 	"globalStyle": {
 		"pageOrientation": "portrait",
@@ -69,7 +101,7 @@
 		"h5": {
 			"maxWidth": 1190,
 			"navigationBarTextStyle": "black",
-			"navigationBarBackgroundColor": "#F1F1F1"
+			"navigationBarBackgroundColor": "#6FD2D3"
 		}
 	},
 	 "tabBar": {
@@ -78,30 +110,30 @@
 	 	"backgroundColor": "#FFFFFF",
 	 	"borderStyle": "black",
 	 	"list": [{
-	 			"pagePath": "pages/Home/home",
+	 			"pagePath": "pages/home/home",
 	 			"iconPath": "static/home.png",
 	 			"selectedIconPath": "static/home-active.png",
 	 			"text": "首页"
 	 		},
 	 		{
-	 			"pagePath": "pages/Encyclopedia/encyclopedia",
+	 			"pagePath": "pages/encyclopedia/encyclopedia",
 	 			"iconPath": "static/encyclopedia.png",
 	 			"selectedIconPath": "static/encyclopedia-active.png",
 	 			"text": "健康百科"
 	 		},
 	 		{
-	 			"pagePath": "pages/Diagnose/diagnose",
+	 			"pagePath": "pages/diagnose/diagnose",
 	 			"iconPath": "static/diagnose.png",
 	 			"selectedIconPath": "static/diagnose-active.png",
 	 			"text": "诊断"
 	 		},
 	 		{
-	 			"pagePath": "pages/Community/community",
+	 			"pagePath": "pages/community/community",
 	 			"iconPath": "static/community.png",
 	 			"selectedIconPath": "static/community-active.png",
 	 			"text": "社区"
 	 		}, {
-	 			"pagePath": "pages/Mine/mine",
+	 			"pagePath": "pages/mine/mine",
 	 			"iconPath": "static/mine.png",
 	 			"selectedIconPath": "static/mine-active.png",
 	 			"text": "我的"

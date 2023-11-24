@@ -12,7 +12,7 @@ const store = new Vuex.Store({
 		colorList: ['#FF0000', '#00FF00', '#0000FF'],
 		noMatchLeftWindow: true,
 		active: 'componentPage',
-		leftWinActive: '/pages/component/view/view',
+		// leftWinActive: '/pages/component/view/view',
 		activeOpen: '',
 		menu: [],
 		univerifyErrorMsg: '',

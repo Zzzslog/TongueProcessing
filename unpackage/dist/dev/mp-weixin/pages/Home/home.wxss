@@ -1,67 +1,13 @@
-.wrap.data-v-337d2f74 {
+@charset "UTF-8";
+.wrap.data-v-92bb8f34 {
   padding: 20rpx;
 }
-.content.data-v-337d2f74 {
+.content.data-v-92bb8f34 {
   width: 100%;
   min-height: 100%;
   background-color: #efffff;
 }
-.content .navdiv.data-v-337d2f74 {
-  background: linear-gradient(to bottom, #ADE5EE, #d3fafc, #eff7fe);
-  border-radius: 30rpx;
-  margin: auto;
-  width: 96%;
-  height: 300rpx;
-}
-.font-card.data-v-337d2f74 {
-  font-size: 35rpx;
-  margin: 20px auto;
-}
-.nav.data-v-337d2f74 {
-  text-align: center;
-  opacity: 0.8;
-  width: 250rpx;
-  border-radius: 40rpx;
-  margin: auto;
-  margin-top: 16rpx;
-}
-.nav .nav_item1.data-v-337d2f74 {
-  height: 270rpx;
-  line-height: 100rpx;
-  display: block;
-  background: linear-gradient(to bottom, #acfaed, white);
-  border-radius: 40rpx;
-  box-shadow: -5rpx 3rpx 2rpx 7rpx #a9f4e8;
-}
-.nav .nav_item1 view.data-v-337d2f74 {
-  margin: 10px auto;
-}
-.nav .nav_item1 .aliiconfont.data-v-337d2f74 {
-  font-size: 64px;
-  opacity: 0.8;
-}
-.nav .nav_item1 .aliicon-yiyuan.data-v-337d2f74 {
-  color: #9086ff;
-}
-.nav .nav_item2.data-v-337d2f74 {
-  height: 120rpx;
-  display: flex;
-  box-shadow: 5rpx -3rpx 2rpx 7rpx #f4f4f4;
-}
-.nav .nav_item2 view.data-v-337d2f74 {
-  margin: 15px auto;
-}
-.nav .nav_item2 .aliiconfont.data-v-337d2f74 {
-  font-size: 36px;
-  opacity: 0.7;
-}
-.nav .nav_item2 .aliicon-bingli.data-v-337d2f74 {
-  color: #ffbc1e;
-}
-.nav .nav_item2 .aliicon-tongxun.data-v-337d2f74 {
-  color: #2ffc96;
-}
-.newdiv.data-v-337d2f74 {
+.newdiv.data-v-92bb8f34 {
   background-color: white;
   border-radius: 40rpx;
   width: 96%;
@@ -69,37 +15,13 @@
   margin: auto;
   margin-top: 8px;
 }
-.newdiv .now_news.data-v-337d2f74 {
-  margin: 30rpx 30rpx;
-  flex: 1;
-  overflow-y: auto;
-}
-.newdiv .now_news .self.data-v-337d2f74 {
-  display: flex;
-}
-.newdiv .now_news .self .selfinfo.data-v-337d2f74 {
-  margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-}
-.newdiv .now_news .self .selfinfo .username.data-v-337d2f74 {
-  font-size: 1rem;
-}
-.newdiv .now_news .self .selfinfo .userdetail.data-v-337d2f74 {
-  color: grey;
-  font-size: 0.7rem;
-}
-.newdiv .now_news .self .article.data-v-337d2f74 {
-  margin: auto;
-  margin-top: 20rpx;
-}
-.newdiv .now_news .self .article .texttitle.data-v-337d2f74 {
-  font-size: 1rem;
-  font-weight: 800;
-  margin-bottom: 20rpx;
-}
-.newdiv .navbar-down.data-v-337d2f74 {
+.navbar-down.data-v-92bb8f34 {
   width: 96%;
   margin: 35rpx 0 0 30rpx;
+}
+/* 请根据实际需求修改父元素尺寸，组件自动识别宽高 */
+.charts-box.data-v-92bb8f34 {
+  width: 100%;
+  height: 300px;
 }
 
